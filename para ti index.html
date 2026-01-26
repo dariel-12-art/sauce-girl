@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Para Ti 💛 | Inspirado en Eladio Carrión</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #000; /* Fondo negro */
+      color: #222; /* Texto oscuro, como original */
+      line-height: 1.6;
+      padding-bottom: 40px;
+    }
+
+    header {
+      background: #4caf50; /* Verde */
+      padding: 2rem 1rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      color: white;
+      margin: 0;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+
+    section {
+      background: white;
+      border-radius: 16px;
+      padding: 1.8rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    section:hover {
+      transform: translateY(-5px);
+    }
+
+    h2 {
+      color: #222;
+      text-align: center;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 24px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 8px 4px;
+      transition: all 0.3s ease;
+    }
+
+    .btn-yellow { background: #ffeb3b; color: #000; }
+    .btn-green { background: #4caf50; color: white; }
+    .btn-red { background: #f44336; color: white; }
+    .btn-orange { background: #ff9800; color: white; }
+
+    .btn:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+
+    /* Estilo para canciones */
+    .album {
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      border-radius: 12px;
+      border-left: 5px solid;
+    }
+
+    .sauce-boyz { background-color: #fff8e1; border-left-color: #ffeb3b; }
+    .sauce-boyz-2 { background-color: #e8f5e9; border-left-color: #4caf50; }
+    .don-kbrn { background-color: #ffebee; border-left-color: #f44336; }
+
+    .album h3 {
+      margin-bottom: 12px;
+      font-size: 1.4rem;
+    }
+
+    .song-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .song-list li {
+      padding: 6px 0;
+      font-size: 1.05rem;
+      color: #333;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      color: #555;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      section {
+        padding: 1.4rem;
+      }
+
+      .btn {
+        display: block;
+        margin: 8px auto;
+        width: 80%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>✨ Para Ti ✨</h1>
+  </header>
+
+  <div class="container">
+
+    <section id="inicio">
+      <h2>🌟 Bienvenida</h2>
+      <p>Hola... esta página es un pequeño homenaje hecho con cariño, inspirado en lo que más te gusta: <strong>Eladio Carrión</strong>.</p>
+      <p>Cada color, cada palabra, cada detalle… está pensado para ti.</p>
+    </section>
+
+    <section id="mensaje">
+      <h2>💌 Mi Mensaje</h2>
+      <p>No soy tan bueno con las palabras como Eladio, pero quiero que sepas que cada vez que escucho una de sus canciones, pienso en ti.</p>
+      <p>Eres única, brillante y llena de energía… como el amarillo del <em>"Sauce Boyz"</em>, el verde de la esperanza, el rojo de la pasión y el naranja del atardecer que tanto te gusta.</p>
+      <p>Espero que este rincón digital te saque una sonrisa. 💛</p>
+    </section>
+
+    <section id="canciones">
+      <h2>🎧 Tus Canciones Favoritas</h2>
+
+      <div class="album sauce-boyz">
+        <h3>💿 SAUCE BOYZ</h3>
+        <ul class="song-list">
+          <li>• Mi error</li>
+          <li>• Hielo</li>
+          <li>• 3 AM</li>
+          <li>• Mala mia</li>
+          <li>• Kemba walker</li>
+        </ul>
+      </div>
+
+      <div class="album sauce-boyz-2">
+        <h3>💿 SAUCE BOYZ 2</h3>
+        <ul class="song-list">
+          <li>• Jóvenes millonarios</li>
+          <li>• Socio</li>
+          <li>• Miradas raras</li>
+          <li>• Claro cristal</li>
+          <li>• Flores en anónimo</li>
+        </ul>
+      </div>
+
+      <div class="album don-kbrn">
+        <h3>💿 DON KBRN</h3>
+        <ul class="song-list">
+          <li>• 100 Conmigo</li>
+          <li>• Me muero</li>
+          <li>• Carta a Dios</li>
+          <li>• Y U So Cold</li>
+          <li>• Piedras en la ventana</li>
+          <li>• Romeo y Julieta</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="detalles">
+      <h2>🎁 Pequeños Detalles</h2>
+      <p>Cada color representa algo que admiro de ti:</p>
+      <br>
+      <button class="btn btn-yellow" onclick="alert('¡Eres mi favorita! 💛')">Amarillo</button>
+      <button class="btn btn-green" onclick="alert('Contigo todo florece 🌱')">Verde</button>
+      <button class="btn btn-red" onclick="alert('Mi corazón late fuerte por ti ❤️')">Rojo</button>
+      <button class="btn btn-orange" onclick="alert('Eres fuego y dulzura 🔥')">Naranja</button>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>Inspirado en Eladio Carrión • Hecho con ❤️ para ti • Enero 2026</p>
+  </footer>
+
+</body>
+</html>
